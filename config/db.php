@@ -2,7 +2,7 @@
 $host = "127.0.0.1";
 $dbName = "php_demo";
 $username = "root";
-$password = "W2i0l0l2i@neliseu";
+$password = "";
 
 $conn = new mysqli($host, $username, $password, $dbName);
 if($conn->connect_error){
